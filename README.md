@@ -2,6 +2,8 @@
 
 T-Criptify is a web application that allows you to easily convert uploaded videos into transcriptions. This tool is designed to make the process of creating written transcripts from video content quick and straightforward. Whether you're a content creator, journalist, or simply need accurate transcriptions for your videos, T-Criptify has you covered.
 
+<h3>Live app: <span>https://t-criptify.vercel.app/</span></h3>
+
 <img src="https://i.ibb.co/W5sVzVB/T-Criptify.png" alt="T-Criptify" border="0">
 
 ## Features
