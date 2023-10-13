@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <>
       <PageHeaders
-        h1Text="Add captions to your videos."
-        h2Text="Upload your video, and see the result."
+        h1Text="Extract Transcripts from Your Videos."
+        h2Text="Upload Your Video and Retrieve the Transcript."
       />
       <div className="text-center">
         <UploadForm />

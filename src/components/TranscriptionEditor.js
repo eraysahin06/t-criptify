@@ -1,10 +1,7 @@
 import React from 'react';
 import TranscriptionItem from './TranscriptionItem';
 
-const TranscriptionEditor = ({
-  awsTranscriptionItems,
-  setAwsTranscriptionItems,
-}) => {
+const Transcript = ({ awsTranscriptionItems, setAwsTranscriptionItems }) => {
   function updateTranscriptionItem(index, prop, e) {
     const newAwsItems = [...awsTranscriptionItems];
     newAwsItems[index][prop] = e.target.value;
@@ -13,13 +10,13 @@ const TranscriptionEditor = ({
 
   return (
     <>
-      <div className="grid grid-cols-3 sticky top-0 bg-violet-800/80 p-2 rounded-md">
+      <div className="grid grid-cols-3 sticky top-0 bg-blue-900/80 p-2 rounded-md">
         <div>From</div>
         <div>To</div>
         <div>Word</div>
       </div>
       {awsTranscriptionItems.length > 0 && (
-        <div>
+        <div className="h-48 sm:h-auto sm:overflow-auto overflow-y-scroll">
           {awsTranscriptionItems.map((item, key) => (
             <div key={key}>
               <TranscriptionItem
@@ -42,4 +39,4 @@ const TranscriptionEditor = ({
   );
 };
 
-export default TranscriptionEditor;
+export default Transcript;
