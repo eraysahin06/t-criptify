@@ -17,7 +17,7 @@ const DemoSection = () => {
           <Image
             className="border-2 border-red-500 rounded-lg"
             src={Demo}
-            alt={'T-criptify Demo Video Thumbnail'}
+            alt={'T-criptify Demo Video Thumbnail Example'}
           />
         </div>
       </div>
