@@ -11,7 +11,7 @@ T-Criptify is a web application that allows you to easily convert uploaded video
 - **Video to Transcript Conversion**: Upload your video files, and T-Criptify will generate transcriptions for you.
 - **AWS Integration**: Utilizes AWS services like S3 Buckets and AWS Transcribe for reliable and scalable transcription processing.
 - **User-Friendly Interface**: An intuitive and easy-to-use web interface for a seamless experience.
-- **Responsive Design**: T-Criptify is built with Next.js and React, ensuring a responsive and performant application.
+- **Responsive Design**: T-Criptify is built with Next JS and React JS, ensuring a responsive and performant application.
 - **Modern Styling**: TailwindCSS is employed to provide a clean and modern visual design.
 
 ## Technologies Used
